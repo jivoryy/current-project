@@ -1,0 +1,257 @@
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/LEGALKES%20LOGO%202.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 9rem;
+  height: 45px;
+}
+
+.nav.navbar-nav.d-lg-flex {
+  margin-top: 15px;
+}
+
+.hero {
+  background: linear-gradient(to bottom left, #2a2d60, #2a2d60, #9b957c);
+  width: 100%;
+  color: #ffffff;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  padding-bottom: 10px;
+  padding-top: 4px;
+}
+
+@media (max-width: 580px) {
+  .hero-paragraph.big {
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-paragraph.big {
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-paragraph.big {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-paragraph.small {
+    font-size: 22px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-paragraph.small {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-paragraph.small {
+    font-size: 35px;
+    text-align: right;
+  }
+}
+
+.below-hero {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+#nama-pt {
+  font-size: 24px;
+}
+
+@media (max-width: 500px) {
+  #nama-pt {
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.neonbox-hero {
+  height: 100vh;
+}
+
+@media (max-width: 990px) {
+  .neonbox-hero {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 500px) {
+  #logo-pt {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 500px) {
+  .col.kolom-pt-img {
+    text-align: right;
+  }
+}
+
+@media (max-width: 499px) {
+  .col.kolom-pt-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .row.baris-pt-img {
+    height: 350px;
+  }
+}
+
+#catchphrase {
+  font-size: 18px;
+}
+
+@media (max-width: 450px) {
+  #catchphrase {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+#tentang {
+  height: 120vh;
+  margin: 30px;
+  padding-top: 90px;
+}
+
+#deskripsi-usaha {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  height: 400px;
+  width: 85%;
+  border-radius: 0px;
+  background: #2a2d60;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-wrap: wrap;
+}
+
+@media (min-width: 550px) {
+  #deskripsi-usaha {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    height: 210px;
+    width: 85%;
+    border-radius: 0px;
+    background: #2a2d60;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1000px) {
+  #deskripsi-usaha {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    height: 150px;
+    width: 85%;
+    border-radius: 0px;
+    background: #2a2d60;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+  }
+}
+
+.p-desk-usaha {
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+
+.container.visi-misi-container {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#visi {
+}
+
+@media (min-width: 501px) {
+  #misi {
+    left: 15px;
+    padding-right: 0px;
+  }
+}
+
+#visi-misi {
+  display: flex;
+  position: relative;
+  width: 85%;
+  margin-top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-back.misi {
+  background: linear-gradient(to bottom left, #2a2d60, #2a2d60, #9b957c);
+}
+
+.profile-back.visi {
+  background: linear-gradient(to bottom right, #2a2d60, #2a2d60, #9b957c);
+}
+
+#pic-visi {
+  position: relative;
+  background-image: url("../../assets/img/eye-look.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#pic-misi {
+  position: relative;
+  background-image: url("../../assets/img/eye-look.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#misi-list {
+  position: relative;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
