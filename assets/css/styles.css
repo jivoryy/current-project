@@ -4,7 +4,9 @@
   background-size: cover;
   background-position: center;
   width: 9rem;
-  height: 45px;
+  height: 2.85rem;
+  padding-top: 0px;
+  margin-right: 14px;
 }
 
 .nav.navbar-nav.d-lg-flex {
@@ -17,9 +19,14 @@
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .navbar.navbar-light.navbar-expand-md {
+    padding-bottom: 0px;
+  }
+}
+
 .navbar.navbar-light.navbar-expand-md {
-  padding-bottom: 10px;
-  padding-top: 4px;
+  background-color: white;
 }
 
 @media (max-width: 580px) {
@@ -44,7 +51,6 @@
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 0px;
-    text-align: right;
   }
 }
 
@@ -134,7 +140,6 @@
 }
 
 #tentang {
-  height: 120vh;
   margin: 30px;
   padding-top: 90px;
 }
@@ -202,20 +207,16 @@
 #visi {
 }
 
-@media (min-width: 501px) {
-  #misi {
-    left: 15px;
-    padding-right: 0px;
-  }
+#misi {
 }
 
 #visi-misi {
   display: flex;
   position: relative;
-  width: 85%;
+  max-width: 85%;
   margin-top: 20px;
-  left: 50%;
   transform: translateX(-50%);
+  left: 50%;
 }
 
 .profile-back.misi {
@@ -253,5 +254,109 @@
   width: 90%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media (min-width: 511px) {
+  .clearfix.sekat {
+    width: 50px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 510px) {
+  .clearfix.sekat {
+    width: 300px;
+    height: 10px;
+  }
+}
+
+.block-heading {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+  .block-heading {
+    padding-top: 80px;
+  }
+}
+
+.keunggulan-box {
+  padding: 15px 20px 15px 70px;
+}
+
+.keunggulan-box .icon {
+  font-size: 45px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 50px;
+  text-align: center;
+  color: #2a2d60;
+}
+
+@media (min-width: 992px) {
+  .keunggulan-box.ganjil {
+    left: 7%;
+  }
+}
+
+.nav-item:hover {
+  border-bottom: 5px solid #2a2d60;
+}
+
+.nav-item {
+  height: 3rem;
+}
+
+.layanan-icon {
+  font-size: xx-large;
+}
+
+.layanan-button {
+  background: #2a2d60;
+  padding: 1rem;
+  color: white;
+  border-radius: 12px;
+  margin: 20px;
+  width: 9rem;
+}
+
+.layanan-button:hover {
+  background: #9b956c;
+  cursor: pointer;
+}
+
+#hero {
+  height: 100vh;
+}
+
+.kontak {
+  margin-top: 3.9375rem;
+  padding-top: 2rem;
+}
+
+.layanan-link {
+  text-decoration: none;
+  color: white;
+}
+
+.layanan-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.list-dasar-hukum:before, .list-dasar-hukum:after {
+  content: "";
+  display: block;
+  border-top: 10px solid #2a2d60;
+}
+
+.list-dasar-hukum {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  grid-gap: 1rem;
 }
 
