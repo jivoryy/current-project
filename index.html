@@ -13,28 +13,31 @@
 <body>
   <header class="header">
     <div class="overlay has-fade"></div>
-    <nav class="container flex flex-jc-sb flex-ai-c flex-ta-c">
-      <a href="/" class="header--logo">
-        <img src="assets/img/LEGALKES LOGO 2.png" alt="Legalkes">
-      </a>
-
-      <a id="hamburger-menu" href="#" class="header--button hide-in-desktop">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-
-      <div class="header--links hide-in-mobile">
-        <a href="layanan.html">Layanan</a>
-        <a href="tentang.html">Tentang</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="kontak.html">Kontak</a>
+    <nav>
+      <div class="container flex flex-jc-sb flex-ai-c flex-ta-c">
+        <a href="/" class="header--logo">
+          <img src="assets/img/LEGALKES LOGO 2.png" alt="Legalkes">
+        </a>
+  
+        <a id="hamburger-menu" href="#" class="header--button hide-in-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+  
+        <div class="header--links hide-in-mobile">
+          <a href="layanan.html">Layanan</a>
+          <a href="tentang.html">Tentang</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="kontak.html">Kontak</a>
+        </div>
+        <!--
+        <a href="#" class="button header--wa hide-in-mobile">
+          <i class="fab fa-whatsapp"></i>
+          Hubungi Kami
+        </a>
+        -->
       </div>
-
-      <a href="#" class="button header--wa hide-in-mobile">
-        <i class="fab fa-whatsapp"></i>
-        Hubungi Kami
-      </a>
     </nav>
 
     <div class="header--menu has-fade container">
@@ -44,15 +47,16 @@
       <a href="kontak.html">Kontak</a>
     </div>
   </header>
-  <section class="hero">
-    <div class="bariskosongan"></div>
-    <div class="container neonbox">
+  <section id="hero-besar" class="hero bagianSatu">
+    <div class="container">
+        <div class="bariskosongan"></div>
+        <div class="neonbox">
       <br>
       <h1>
-        Your Consultant of Choice for <br> Device Regulations
+        Your Consultant of Choice for <br> Medical Device Regulations
       </h1>
       <h3>
-        Spesialis Jasa Pelayanan Perizinan Alat Kesehatan <br>(AlKes dan Perbekalan Kesehatan Rumah Tangga)
+        Spesialis Jasa Pelayanan Perizinan Alat Kesehatan <br>(Alat Kesehatan dan Perbekalan Kesehatan Rumah Tangga)
       </h3>
       <div class="wadahbutton">
         <a href="#" class="button hero--wa">
@@ -60,44 +64,54 @@
         Hubungi Kami
       </a>
     </div>
+      </div>
     </div>
   </section>
+
   <section class="layanan">
     <h3 class="headline">
       Layanan <b>Legalkes</b>
     </h3>
-    <div class="display-layanan container">
-      <div class="layanan-home">
-        <i class="fas fa-mail-bulk"></i>
-        <h3>
-          <b>
-          Sertifikasi
-          </b>
-        </h3>
-        <p>Solusi mudah pembuatan sertifikat Alat Kesehatan
-        </p>
-        <a href="http://">LIHAT LEBIH LENGKAP</a>
-      </div>
-      <div class="layanan-home">
-        <i class="fas fa-tasks"></i>
-        <h3>
-          <b>
-          Izin Edar
-          </b>
-        </h3>
-        <p>Solusi mudah pembuatan ijin edar alat Kesehatan, pangan, dan kosmetika
-        </p>
-        <a href="http://">LIHAT LEBIH LENGKAP</a>
-      </div>
-      <div class="layanan-home">
-        <i class="fas fa-layer-group"></i>
-        <h3>
-          <b>
-          Lain-lain
-          </b>
-        </h3>
-        <p>Solusi mudah pembuatan HKI, paten, dan lain-lainnya</p>
-        <a href="http://">LIHAT LEBIH LENGKAP</a>
+    <div class="container">
+      <div class="display-layanan">
+        <div class="layanan-home">
+          <i class="fas fa-mail-bulk"></i>
+          <h3>
+            <b>
+            Sertifikasi
+            </b>
+          </h3>
+          <p>Solusi mudah pembuatan sertifikat Alat Kesehatan
+          </p>
+          <div class="wadahbutton">
+            <a href="layanan.html">LIHAT LEBIH LENGKAP</a>
+          </div>
+        </div>
+        <div class="layanan-home">
+          <i class="fas fa-tasks"></i>
+          <h3>
+            <b>
+            Izin Edar
+            </b>
+          </h3>
+          <p>Solusi mudah pembuatan ijin edar alat Kesehatan, pangan, dan kosmetika
+          </p>
+          <div class="wadahbutton">
+            <a href="layanan.html">LIHAT LEBIH LENGKAP</a>
+          </div>
+        </div>
+        <div class="layanan-home">
+          <i class="fas fa-layer-group"></i>
+          <h3>
+            <b>
+            Lain-lain
+            </b>
+          </h3>
+          <p>Solusi mudah pembuatan HKI, paten, dan lain-lainnya</p>
+          <div class="wadahbutton">
+            <a href="layanan.html">LIHAT LEBIH LENGKAP</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -105,26 +119,26 @@
     <h3 class="headline">
       Mengapa pilih <b>Legalkes</b>?
     </h3>
-    <div>  
-      <div class="display-layanan container">
-        <div class="keunggulan-home kiri">
-          <i class="fas fa-mail-bulk"></i>
+    <div class="container">  
+      <div class="display-layanan">
+        <div class="keunggulan-home">
+          <i class="fas fa-balance-scale"></i>
           <h4>
             <b>
             Konsultasi Gratis Seputar Legalitas Perusahaan Alat Kesehatan
             </b>
           </h4>
         </div>
-        <div class="keunggulan-home tengah">
-          <i class="fas fa-tasks"></i>
+        <div class="keunggulan-home">
+          <i class="fas fa-building"></i>
           <h4>
             <b>
             Konsultasi Gratis Role Model Bisnis Alat Kesehatan
             </b>
           </h4>
         </div>
-        <div class="keunggulan-home kanan">
-          <i class="fas fa-layer-group"></i>
+        <div class="keunggulan-home">
+          <i class="fas fa-money-bill-wave"></i>
           <h4>
             <b>
               Harga Terjangkau
@@ -132,24 +146,24 @@
           </h4>
         </div>
      
-        <div class="keunggulan-home kiri">
-          <i class="fas fa-layer-group"></i>
+        <div class="keunggulan-home">
+          <i class="fas fa-clipboard-check"></i>
           <h4>
             <b>
               Tepat dan Cepat
             </b>
           </h4>
         </div>
-        <div class="keunggulan-home tengah">
-          <i class="fas fa-layer-group"></i>
+        <div class="keunggulan-home">
+          <i class="fas fa-user-lock"></i>
           <h4>
             <b>
               Aman dan Nyaman
             </b>
           </h4>
         </div>
-        <div class="keunggulan-home kanan">
-          <i class="fas fa-layer-group"></i>
+        <div class="keunggulan-home">
+          <i class="far fa-clock"></i>
           <h4>
             <b>
               Pelayanan 24 Jam
@@ -157,9 +171,9 @@
           </h4>
         </div>
       </div>
-      <div class="display-layanan-last container">
+      <div class="display-layanan-last">
         <div class="keunggulan-home">
-          <i class="fas fa-layer-group"></i>
+          <i class="fas fa-users"></i>
           <h4>
             <b>
               SDM Profesional
@@ -167,7 +181,7 @@
           </h4>
         </div>
     </div>
-  </div>
+    </div>
   </section>
   <footer class="footer">
     <div class="container">
@@ -189,10 +203,9 @@
           </div>
           <div class="kolom-footer">
               <h3>Kontak</h3>
-              <p>Jl. Raya Metland Cibitung Ruko NAGOYA 1 Blok C/01B No. 006 <br><br> Tegalmurni, <br>Cikarang Barat, Bekasi, <br>Jawa Barat 17530
+              <p>Jl. Raya Metland Cibitung Ruko Nagoya 1<br>Blok C/01B No. 006<br>Telagamurni, <br>Cikarang Barat, Bekasi, <br>Jawa Barat 17530
               </p>
-              WA:
-              <a href="http://">(+62) 857 7033 9139</a>              
+              <div class="nomorwa">WhatsApp: <a href="http://">(+62) 857 xxxx xxxx</a></div>              
               <a href="mailto:legalkes@gmail.com">legalkes@gmail.com</a>
               
           </div>
