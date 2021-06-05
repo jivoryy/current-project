@@ -1,0 +1,90 @@
+.footer {
+    a {
+        color: black;
+        opacity: 0.7;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: black;
+    background: linear-gradient(to right, $ungu-footer-roma, $biru-ungu-muda);
+    @include breakpoint-down(medium){
+        text-align: center;
+    }
+
+    .baris-footer {
+        @include breakpoint-up(large){
+            display: grid;
+            grid-template-columns: auto auto 2fr auto;
+            gap: 4rem;
+            justify-content: space-between;
+        }
+        
+        .kolom-footer {
+            @include breakpoint-up(large){
+                display: flex;
+                flex-direction: column;
+                &:not(:last-child){
+                    margin-right: 2rem;
+                }
+            }
+            
+
+            ul {
+                padding: 0;
+                list-style: none;
+                line-height: 1.6;
+                margin-bottom: 0;
+            }
+        }
+
+        .social-icon {
+            @include breakpoint-up(large){
+                text-align: right;
+            }
+
+            a {
+                font-size: 24px;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid black;
+                margin-left: 10px;
+                margin-top: 22px;
+                color: inherit;
+                opacity: 0.5;
+                transition: opacity 150ms ease-in-out;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            .copyright {
+                margin-top: 14px;
+                margin-bottom: 0;
+                font-size: 13px;
+                opacity: 0.6;
+            }
+        }
+    }
+}
+
+.absolut {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

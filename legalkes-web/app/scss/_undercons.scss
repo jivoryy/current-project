@@ -1,0 +1,10 @@
+.under-cons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25rem;
+    text-align: center;
+    a {
+        text-decoration: underline;
+    }
+}

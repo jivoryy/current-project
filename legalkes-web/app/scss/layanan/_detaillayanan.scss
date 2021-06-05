@@ -1,0 +1,53 @@
+/*
+Juga dipakai untuk halaman TENTANG
+*/
+
+.detaillayanan {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+
+    h1,h2 {
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .konten-layanan {
+        display: grid;
+        @include breakpoint-up(large) {
+            grid-template-columns: 1fr 2fr;
+        }
+
+        @include breakpoint-down (medium) {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+
+        .gambar-layanan {
+            width: 20rem;
+            height: 13.333125rem;
+            border-radius: 0.5rem;
+        }
+    }
+
+    .gg {
+        grid-row-gap: 3rem;
+    }
+}
+
+.satu {
+    background-color: $snowgrey;
+}
+.dua {
+    background-color: white;
+}
